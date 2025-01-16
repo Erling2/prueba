@@ -1,5 +1,7 @@
 import { filtraNumMayores } from "./ejercicio1"
 import { calcularPromedio } from "./ejercicio1"
+import { distanciaEntrepuntos } from "./ejercicio2"
+import { punto } from "./ejercicio2"
 
 const main = () => {
     //filtrar
@@ -8,6 +10,11 @@ const main = () => {
 
     //promedio
     console.log(calcularPromedio(numeros))
-}
 
+    //distancia entre dos puntos
+    const p1: punto = [1,2]
+    const p2: punto = [3,4]
+
+    distanciaEntrepuntos(p1,p2)
+}
 main()
