@@ -12,4 +12,6 @@ export const moverPunto = (p: punto, dx: number, dy: number) => {
     nuevoPunto [1] += dy
 
     return nuevoPunto
+
+    //prueba
 }
